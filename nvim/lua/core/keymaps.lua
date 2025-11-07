@@ -30,3 +30,5 @@ set("n", "<leader>h", "<cmd>e #<CR>")
 set("n", "<leader>H", "<cmd>vsplit | e #<CR>")
 
 set("n", "<leader>q", "<cmd>quit<CR>")
+
+set("n", "<leader>!", "<cmd>!g++ % -o main<CR>")
