@@ -31,4 +31,4 @@ set("n", "<leader>H", "<cmd>vsplit | e #<CR>")
 
 set("n", "<leader>q", "<cmd>quit<CR>")
 
-set("n", "<leader>!", "<cmd>!g++ % -o main<CR>")
+set("n", "<leader>!", "<cmd>TermExec cmd=\"g++ % -o main\"<CR>")
