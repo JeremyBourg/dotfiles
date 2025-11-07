@@ -5,12 +5,7 @@
  *
  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
  */
-static char *font = "Go Mono:size=13:antialias=true:autohint=true";
-/* Spare fonts */
-static char *font2[] = {
-	"VL Gothic:size=13:antialias=true:autohint=true",
-	"Go Mono Nerd Font Mono:size=13:antialias=true:autohint=true",
-};
+static char *font = "Go Mono Nerd Font Mono:size=18:antialias=true:autohint=true";
 
 static int borderpx = 2;
 
