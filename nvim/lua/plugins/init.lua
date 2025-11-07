@@ -1,7 +1,6 @@
 -- SETUP PLUGINS
 require("lazy").setup({
 
-    -- require("plugins.autopairs"),
 
     require("plugins.colorizer"),
 
