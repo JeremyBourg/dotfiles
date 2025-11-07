@@ -24,6 +24,4 @@ require("lazy").setup({
 
     require("plugins.toggleterm"),
 
-    -- require("plugins.treesitter"),
-
 })
