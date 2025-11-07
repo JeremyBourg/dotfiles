@@ -14,8 +14,6 @@ return {
         { path = "${3rd}/luv/library", words = { "vim%.uv" } },
       },
     },
-
-    "saghen/blink.cmp",
   },
 
   config = function()
@@ -106,8 +104,6 @@ return {
       },
     })
 
-    local capabilities = require("blink.cmp").get_lsp_capabilities()
-
     local servers = {
       lua_ls = {
         settings = {
@@ -126,13 +122,6 @@ return {
     require("mason-lspconfig").setup({
       ensure_installed = {},
       automatic_installation = false,
-      handlers = {
-        function(server_name)
-          local server = servers[server_name] or {}
-          server.capabilities = vim.tbl_deep_extend("force", {}, capabilities, server.capabilities or {})
-          require("lspconfig")[server_name].setup(server)
-        end,
-      },
     })
   end,
 }
