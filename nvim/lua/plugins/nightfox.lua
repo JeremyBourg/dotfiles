@@ -49,7 +49,7 @@ return {
           -- Tag = { fg = "#ff87df" },
           -- Title = { fg = "#ff87df" },
           -- Boolean = { fg = "#afafff" },
-          -- MatchParen = { fg = "#ff87df" },
+          MatchParen = { bg = "#ff87df" },
           -- StorangeClass = { fg = "#ffdfff" },
           -- Function = { fg = "#ffdfff" },
           -- Quote = { fg = "#ff5fff" },
