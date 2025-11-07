@@ -1,10 +1,7 @@
 -- SETUP PLUGINS
 require("lazy").setup({
 
-
     require("plugins.colorizer"),
-
-    -- require("plugins.completion"),
 
     require("plugins.gitsigns"),
 
